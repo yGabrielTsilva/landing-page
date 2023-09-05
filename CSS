@@ -1,0 +1,35 @@
+/* Estilo para a barra de navegação */
+.navbar {
+    overflow: hidden;
+    background-color: #4d0491; /* Cor de fundo da barra */
+    position: fixed; /* Tornar a barra de navegação fixa */
+    top: 0; /* Fixar a barra no topo da página */
+    width: 100%; /* Largura total */
+}
+
+/* Estilo para a logo */
+.logo img {
+    height: 50px; /* Altura da logo */
+    padding: 10px; /* Espaçamento interno em torno da logo */
+}
+
+/* Estilo para os links na barra de navegação */
+.navbar a {
+    float: left; /* Alinhar à esquerda */
+    display: block; /* Transformar em bloco para ocupar toda a largura */
+    color: aliceblue; /* Cor do texto */
+    text-align: center; /* Alinhar o texto ao centro */
+    padding: 14px 16px; /* Espaçamento interno (topo e lado) */
+    text-decoration: none; /* Remover sublinhado dos links */
+}
+
+/* Alterar a cor do link quando o mouse passa por cima */
+.navbar a:hover {
+    background-color:#58079c; /* Cor de fundo ao passar o mouse */
+    color: aliceblue; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo para o conteúdo da página (espaço abaixo da barra de navegação) */
+.content {
+    margin-top: 70px; /* Espaçamento superior para evitar sobreposição com a barra de navegação */
+}
