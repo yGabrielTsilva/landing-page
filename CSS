@@ -31,5 +31,31 @@
 
 /* Estilo para o conteúdo da página (espaço abaixo da barra de navegação) */
 .content {
-    margin-top: 70px; /* Espaçamento superior para evitar sobreposição com a barra de navegação */
+    margin-top: 220px;
+    text-align: center;
+}
+
+.botao{
+  padding: 30px;
+  color: white;
+  background-color: red;
+  font-size: 30px;
+  border-radius: 20px;
+  font-weight: bold;
+  
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+
+}
+.titio{
+  margin-top: 60px;
+
+}
+.titia{
+  
 }
